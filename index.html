@@ -88,14 +88,25 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 <p><i>Phone: <a href=""> 932 90 24 74</i></a></p>
 <p><i>Email Address: <a href="">info@salle.edu</a></i></p>
 <h3>Email Us</h3>
+
 <form>
-<label>Nombre*: </label><input type="text" name="nombre" for="First name"></label><br>
-<label>Email*: </label><input type="text" name="email"></label><br>
-<label>Phone*: </label><input type="number" name="phone" for="phone number"></label><br>
-<label>Company name*: </label><input type="text" name=""></label><br>
+    <div>
+      <label for="nombre">* Nombre:</label>
+      <input type="text" value="nombre" id="nombre" aria-required="true"/>
+    </div>
+    <div>
+      <label for="telefono">Phone:</label>
+      <input type="text" value="telefono" id="telefono" aria-required="false"/>
+    </div>
+    <div>
+      <label for="email">* E-mail:</label>
+      <input type="text" value="email" id="email" aria-required="true"/>
+    </div>
 <label>Subject*: <textarea rows="4" cols="50"></textarea></label></label><br>
 <button>Send</button><br>
-</form>
+  </form>
+
+
 <p>&#169 2022 <a href="">La Salle</a>, all rights reserved.</p>
 </footer>
 </body>
